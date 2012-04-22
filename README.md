@@ -56,6 +56,12 @@ Remove a template from the template database:
 Use a template (creates a new folder containing the template files):
     
     mmarcon@wallace$ bootstrapper use
+	
+## Autocomplete
+
+Add the following line to your `.bash_profile` to enable autocompletion of bootstrapper commands:
+
+    source ~/.bootstrapper/bootstrapper-completion.bash
     
 ## Details
 Bootstrapper stores all the data into `$HOME/.bootstrapper`.
